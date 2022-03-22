@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-turn_based_game-master.flake = false;
+  inputs.src-turn_based_game-master.ref   = "refs/heads/master";
   inputs.src-turn_based_game-master.owner = "JohnAD";
-  inputs.src-turn_based_game-master.ref   = "master";
   inputs.src-turn_based_game-master.repo  = "turn_based_game";
   inputs.src-turn_based_game-master.type  = "github";
   

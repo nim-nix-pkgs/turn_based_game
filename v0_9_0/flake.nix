@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-turn_based_game-v0_9_0.flake = false;
+  inputs.src-turn_based_game-v0_9_0.ref   = "refs/tags/v0.9.0";
   inputs.src-turn_based_game-v0_9_0.owner = "JohnAD";
-  inputs.src-turn_based_game-v0_9_0.ref   = "v0_9_0";
   inputs.src-turn_based_game-v0_9_0.repo  = "turn_based_game";
   inputs.src-turn_based_game-v0_9_0.type  = "github";
   
