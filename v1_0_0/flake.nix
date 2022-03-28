@@ -11,7 +11,6 @@
   inputs.src-turn_based_game-v1_0_0.ref   = "refs/tags/v1.0.0";
   inputs.src-turn_based_game-v1_0_0.owner = "JohnAD";
   inputs.src-turn_based_game-v1_0_0.repo  = "turn_based_game";
-  inputs.src-turn_based_game-v1_0_0.dir   = "";
   inputs.src-turn_based_game-v1_0_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
